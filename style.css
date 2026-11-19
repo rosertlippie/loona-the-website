@@ -95,7 +95,7 @@ main {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: none;
   background-color: black;
   color: #ffffff;
   width: 100%;
