@@ -392,35 +392,40 @@ div.desc {
 }
 
 #sixteen {
-  text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #seventeen {
   display: flex;
   flex-flow: row wrap;
-  text-align: center;
+  justify-content: center;
 }
 
 #eighteen {
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 #nineteen {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #twenty {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #twentyone {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #twentytwo {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .tab-align {
