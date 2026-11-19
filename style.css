@@ -30,7 +30,11 @@ div.scroll-container img {
   padding: 10px;
   height: 400px;
 }
-
+footer { 
+  font-family: myFont;
+  font-size: 30px;
+  color: #ffffff;
+}
 
 a {
   text-decoration: none;
