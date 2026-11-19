@@ -126,7 +126,7 @@ main {
 /* Style the tab content */
 .tabcontent {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
@@ -263,8 +263,8 @@ div.desc {
 }
 
 .third-profile-pics {
-  width: 85%;
-  height: 85%;
+  width: 60%;
+  height: 60%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
@@ -272,8 +272,8 @@ div.desc {
 }
 
 .oec-profile-pics {
-  width: 75%;
-  height: 75%;
+  width: 60%;
+  height: 60%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
@@ -285,7 +285,8 @@ div.desc {
   height: 60%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #heejincontent {
