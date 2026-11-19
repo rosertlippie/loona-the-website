@@ -426,4 +426,6 @@ div.desc {
   width: 100%;
   max-width: 1200px;
 }
-
+.archive-img {
+  max-height: 500px;
+}
