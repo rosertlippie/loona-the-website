@@ -393,38 +393,37 @@ div.desc {
 
 #sixteen {
   grid-row: 1/2;
+  text-align: justify;
 }
 
 #seventeen {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 #eighteen {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 #nineteen {
-  display: flex;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 #twenty {
-  display: flex;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 #twentyone {
-  display: flex;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 #twentytwo {
-  display: flex;
-  justify-content: center;
+  grid-row: 1/2;
+  text-align: justify;
 }
 
 .tab-align {
