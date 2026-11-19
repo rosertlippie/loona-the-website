@@ -285,8 +285,7 @@ div.desc {
   height: 60%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 #heejincontent {
