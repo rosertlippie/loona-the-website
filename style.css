@@ -386,46 +386,51 @@ div.desc {
 }
 .archive-flex {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   align-content: center;
 }
 #sixteen {
   grid-row: 1/2;
-  grid-column: 1/8;
+  grid-column: 1/2;
   text-align: justify;
   flex-wrap: wrap;
 }
 
 #seventeen {
   grid-row: 1/2;
-  grid-column: 1/8;
+  grid-column: 2/3;
   text-align: justify;
   flex-wrap: wrap;
 }
 
 #eighteen {
   grid-row: 1/2;
+  grid-column: 3/4;
   text-align: justify;
 }
 
 #nineteen {
   grid-row: 1/2;
+  grid-column: 4/5;
   text-align: justify;
 }
 
 #twenty {
   grid-row: 1/2;
+  grid-column: 5/6;
   text-align: justify;
 }
 
 #twentyone {
   grid-row: 1/2;
+  grid-column: 6/7;
   text-align: justify;
 }
 
 #twentytwo {
   grid-row: 1/2;
+  grid-column: 7/8;
   text-align: justify;
 }
 
