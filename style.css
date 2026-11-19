@@ -1,8 +1,93 @@
+body {
+  background-color: black;
+}
+
+.disco-list {
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: black;
+  color: #ffffff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f1ff9f;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #d5a0f4b9;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+@font-face {
+  font-family: myFont;
+  src: url(TingTong.ttf);
+}
+h1 {
+  color: #ffffff;
+  font-family: myFont;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  text-align: center;
+}
+h3 {
+  font-family: myFont;
+  font-size: 50px;
+  text-align: center;
+}
+#logo {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-start;
+}
 .nav-list {
     display: flex;
     list-style: none;
     margin: 0;
-    padding:0;
+    padding: 0;
+    justify-content: space-around;
+}
+.nav-list a {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
 }
 div.gallery {
   border: 1px solid #ccc;
@@ -15,6 +100,7 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  border: none;
 }
 
 div.desc {
@@ -29,17 +115,28 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 8.29999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1840px) {
   .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 24.99999%;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1080px) {
+  .responsive {
+    width: 24.99999%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .responsive {
+    width: 24.99999%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .responsive {
     width: 100%;
   }
@@ -49,4 +146,95 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.profile {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.profile-list {
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.third-profile-pics {
+  width: 100%;          
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+  grid-row: 1/2;
+}
+
+.oec-profile-pics {
+  width: 100%;          
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+}
+
+.yyxy-profile-pics {
+  width: 100%;          
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+}
+
+#heejincontent {
+  color: #ff5ebf;
+}
+
+#hyunjincontent {
+  color: #fed103
+}
+
+#haseulcontent {
+  color: #00b055
+}
+
+#yeojincontent {
+  color: #ff7423
+}
+
+#vivicontent {
+  color: #ffaccb;
+}
+
+#kimlipcontent {
+  color: #ff5e60;
+}
+
+#jinsoulcontent {
+  color: #6193ff;
+}
+
+#choerrycontent {
+  color: #c892d4;
+}
+
+#yvescontent {
+  color: #c78b8b;
+}
+
+#chuucontent {
+  color: #e68263;
+}
+
+#gowoncontent {
+  color: #84e0b7;
+}
+
+#hyejucontent {
+  color: #b5bec7;
+}
+iframe {
+  height: 300px;
+  width: 300px;
+}
+
+.archive-img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
 }

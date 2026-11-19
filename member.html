@@ -8,19 +8,203 @@
 </head>
 <body>
 <header>
-    <img src="zimg-square-logo.png" alt="A logo of the internet symbol with the letters L, T, and W inside">
+    <div id="logo">
+    <img src="zimg-long-logo.png" alt="A logo of the internet symbol with the letters L, T, and W inside, accompanied by text reading LOONA the Website.">
+    </div>
     <nav>
-        <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="archival.html">Archive</a></li>
-            <li><a href="member.html">Member</a></li>
-            <li><a href="contact.html">World</a></li>
+        <ul id="nav-tab" class="nav-list">
+            <li><a href="index.html">theHome</a></li>
+            <li><a href="member.html">theMembers</a></li>
+            <li><a href="archival.html">theArchive</a></li>
+            <li><a href="contact.html">theWorld</a></li>
         </ul>
     </nav>
 </header>
     <h1>Learn about each girl of the month!</h1>
     <main>
-    <p>Member blurbs</p>
+<div class="tab">
+  <button class="tablinks" onclick="openMember(event, 'Heejin')">HeeJin</button>
+  <button class="tablinks" onclick="openMember(event, 'Hyunjin')">HyunJin</button>
+  <button class="tablinks" onclick="openMember(event, 'Haseul')">HaSeul</button>
+  <button class="tablinks" onclick="openMember(event, 'Yeojin')">YeoJin</button>
+  <button class="tablinks" onclick="openMember(event, 'Vivi')">ViVi</button>
+  <button class="tablinks" onclick="openMember(event, 'Kimlip')">Kim Lip</button>
+  <button class="tablinks" onclick="openMember(event, 'Jinsoul')">JinSoul</button>
+  <button class="tablinks" onclick="openMember(event, 'Choerry')">Choerry</button>
+  <button class="tablinks" onclick="openMember(event, 'Yves')">Yves</button>
+  <button class="tablinks" onclick="openMember(event, 'Chuu')">Chuu</button>
+  <button class="tablinks" onclick="openMember(event, 'Gowon')">GoWon</button>
+  <button class="tablinks" onclick="openMember(event, 'Oliviahye')">Olivia Hye</button>
+</div>
+
+<div id="Heejin" class="tabcontent">
+  <h3 id="heejincontent">Jeon Heejin</h3>
+    <div class="third-profile-pics">
+    <img src="zimg-flip-01.jpg" alt="A picture of Heejin from Flip That era.">
+    </div>
+    <ul class="profile-list" id="heejincontent">
+            <li>Birth name: Jeon Heejin</li>
+            <li>Birthday: 10.19.2000</li>
+            <li>Color: Hot pink</li>
+            <li>Animal: Bunny</li>
+            <li>Solo Debut: Vivid</li>
+    </ul>
+</div>
+
+<div id="Hyunjin" class="tabcontent">
+  <h3 id="hyunjincontent">Kim Hyunjin</h3>
+    <div class="third-profile-pics">
+    <img src="zimg-flip-02.jpg" alt="A picture of Hyunjin from Flip That era.">
+    </div>
+    <ul class="profile-list" id="hyunjincontent">
+            <li>Birth name: Kim Hyunjin</li>
+            <li>Birthday: 11.15.2000</li>
+            <li>Color: Yellow</li>
+            <li>Animal: Cat</li>
+            <li>Solo Debut: Around You</li>
+    </ul>
+</div>
+
+<div id="Haseul" class="tabcontent">
+  <h3 id="haseulcontent">Cho Haseul</h3>
+    <div class="third-profile-pics">
+    <img src="zimg-flip-03.jpg" alt="A picture of Haseul from Flip That era.">
+    </div>
+  <ul class="profile-list" id="haseulcontent">
+            <li>Birth name: Cho Haseul</li>
+            <li>Birthday: 8.18.1997</li>
+            <li>Color: Green</li>
+            <li>Animal: Dove</li>
+            <li>Solo Debut: Let Me In</li>
+    </ul>
+</div>
+
+<div id="Yeojin" class="tabcontent">
+  <h3 id="yeojincontent">Im Yeojin</h3>
+    <div class="third-profile-pics">
+    <img src="zimg-flip-04.jpg" alt="A picture of Yeojin from Flip That era.">
+    </div>
+  <ul class="profile-list" id="yeojincontent">
+            <li>Birth name: Im Yeojin</li>
+            <li>Birthday: 11.11.2002</li>
+            <li>Color: Orange</li>
+            <li>Animal: Frog/Bear</li>
+            <li>Solo Debut: Kiss Later</li>
+    </ul>
+</div>
+
+<div id="Vivi" class="tabcontent">
+  <h3 id="vivicontent">Wong Ka-hei</h3>
+    <div class="third-profile-pics">
+    <img src="zimg-flip-05.jpg" alt="A picture of Vivi from Flip That era.">
+    </div>
+  <ul class="profile-list" id="vivicontent">
+            <li>Birth name: Wong Ka-hei</li>
+            <li>Birthday: 12.09.1996</li>
+            <li>Color: Light pink</li>
+            <li>Animal: Deer</li>
+            <li>Solo Debut: Everyday I Love You</li>
+    </ul>
+</div>
+
+<div id="Kimlip" class="tabcontent">
+  <h3 id="kimlipcontent">Kim Jungeun</h3>
+    <div class="oec-profile-pics">
+    <img src="zimg-flip-06.jpg" alt="A picture of Kim Lip from Flip That era.">
+    </div>
+  <ul class="profile-list" id="kimlipcontent">
+            <li>Birth name: Kim Jungeun</li>
+            <li>Birthday: 02.10.1999</li>
+            <li>Color: Red</li>
+            <li>Animal: Owl</li>
+            <li>Solo Debut: Eclipse</li>
+    </ul>
+</div>
+
+<div id="Jinsoul" class="tabcontent">
+  <h3 id="jinsoulcontent">Jung Jinsol</h3>
+    <div class="oec-profile-pics">
+    <img src="zimg-flip-07.jpg" alt="A picture of Jinsoul from Flip That era.">
+    </div>
+   <ul class="profile-list" id="jinsoulcontent">
+            <li>Birth name: Jung Jinsol</li>
+            <li>Birthday: 06.13.1997</li>
+            <li>Color: Blue</li>
+            <li>Animal: Betta fish</li>
+            <li>Solo Debut: Singing in the Rain</li>
+    </ul>
+</div>
+
+<div id="Choerry" class="tabcontent">
+  <h3 id="choerrycontent">Choi Yerim</h3>
+    <div class="oec-profile-pics">
+    <img src="zimg-flip-08.jpg" alt="A picture of Choerry from Flip That era.">
+    </div>
+    <ul class="profile-list" id="choerrycontent">
+            <li>Birth name: Choi Yerim</li>
+            <li>Birthday: 06.04.2001</li>
+            <li>Color: Purple</li>
+            <li>Animal: Fruit bat</li>
+            <li>Solo Debut: Love Cherry Motion</li>
+    </ul>
+</div>
+
+<div id="Yves" class="tabcontent">
+  <h3 id="yvescontent"> Ha Sooyoung</h3>
+    <div class="yyxy-profile-pics">
+    <img src="zimg-flip-09.jpg" alt="A picture of Yves from Flip That era.">
+    </div>
+    <ul class="profile-list" id="yvescontent">
+            <li>Birth name: Ha Sooyoung</li>
+            <li>Birthday: 05.24.1997</li>
+            <li>Color: Burgundy</li>
+            <li>Animal: Swan</li>
+            <li>Solo Debut: New</li>
+    </ul>
+</div>
+
+<div id="Chuu" class="tabcontent">
+  <h3 id="chuucontent">Kim Jiwoo</h3>
+    <div class="yyxy-profile-pics">
+    <img src="zimg-flip-10.jpg" alt="A picture of Chuu from Flip That era.">
+    </div>
+    <ul class="profile-list" id="chuucontent">
+            <li>Birth name: Kim Jiwoo</li>
+            <li>Birthday: 10.20.1999</li>
+            <li>Color: Peach</li>
+            <li>Animal: Penguin</li>
+            <li>Solo Debut: Heart Attack</li>
+    </ul>
+</div>
+
+<div id="Gowon" class="tabcontent">
+  <h3 id="gowoncontent">Park Chaewon</h3>
+    <div class="yyxy-profile-pics">
+    <img src="zimg-flip-11.jpg" alt="A picture of Gowon from Flip That era.">
+    </div>
+    <ul class="profile-list" id="gowoncontent">
+            <li>Birth name: Park Chaewon</li>
+            <li>Birthday: 11.19.2000</li>
+            <li>Color: Eden green</li>
+            <li>Animal: Butterfly</li>
+            <li>Solo Debut: One & Only</li>
+    </ul>
+</div>
+
+<div id="Oliviahye" class="tabcontent">
+  <h3 id="hyejucontent">Son Hyeju</h3>
+    <div class="yyxy-profile-pics">
+    <img src="zimg-flip-12.jpg" alt="A picture of Olivia Hye from Flip That era.">
+    </div>
+    <ul class="profile-list" id="hyejucontent">
+            <li>Birth name: Son Hyeju</li>
+            <li>Birthday: 11.13.2001</li>
+            <li>Color: Silver</li>
+            <li>Animal: Wolf</li>
+            <li>Solo Debut: Egoist</li>
+    </ul>
+</div>
+
     </main>
 <footer>
     <p>2026 Savannah Foster</p>
