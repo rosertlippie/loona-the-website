@@ -4,7 +4,6 @@ body {
 
 .mainflex {
   display: flex;
-  
 }
 
 #email {
@@ -23,8 +22,8 @@ div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
-  width: 1200px;
-  height: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 div.scroll-container img {
