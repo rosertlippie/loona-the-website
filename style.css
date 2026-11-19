@@ -260,7 +260,8 @@ div.desc {
 }
 
 .third-profile-pics {
-  width: 100%;          
+  width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
@@ -268,7 +269,8 @@ div.desc {
 }
 
 .oec-profile-pics {
-  width: 100%;          
+  width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
@@ -276,7 +278,8 @@ div.desc {
 }
 
 .yyxy-profile-pics {
-  width: 100%;          
+  width: 100%;  
+  height: auto;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
