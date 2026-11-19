@@ -263,8 +263,6 @@ div.desc {
 }
 
 .third-profile-pics {
-  width: 60%;
-  height: 60%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: block;
