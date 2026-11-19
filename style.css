@@ -2,6 +2,85 @@ body {
   background-color: black;
 }
 
+.mainflex {
+  display: flex;
+  
+}
+
+#email {
+  font-family: myFont;
+  font-size: 75px;
+  color: #fed103;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+}
+
+div.scroll-container {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  width: 1200px;
+  height: 400px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  height: 400px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f3deffb9;
+}
+
+.btn-center {
+  text-align: center;
+  gap: 10px;
+}
+
+.loonainfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#orbitbutton {
+  font-size: 100px;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  font-family: myFont;
+  color: #ffffff;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.dabutton  {
+  display:flex;
+  justify-content: center;
+}
+
+.dabutton a:hover {
+  background-color: #d5a0f4b9;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px; 
+  box-sizing: border-box;
+}
+
 .disco-list {
   list-style: none;
   text-align: center;
@@ -16,6 +95,7 @@ body {
   border: 1px solid #ccc;
   background-color: black;
   color: #ffffff;
+  width: 100%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -47,13 +127,16 @@ body {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  width: 100%;
+  max-width: 1200px;
 }
 @font-face {
   font-family: myFont;
   src: url(TingTong.ttf);
 }
+
 h1 {
-  color: #ffffff;
+  color: #fed103;
   font-family: myFont;
   font-size: 100px;
   text-align: center;
@@ -62,13 +145,14 @@ h1 {
 h2 {
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 h3 {
   font-family: myFont;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+  color: #ffffff;
 }
 #logo {
   width: 160px;
@@ -89,18 +173,31 @@ h3 {
   color: white;
   padding: 8px 12px;
 }
+
+.nav-list a:hover {
+  background-color: #6193ff;
+  color:#0c01ff;
+}
+
+.nav-list a:active {
+  background-color: #00b055;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 div.gallery {
-  border: 1px solid #ccc;
+  border-radius: 12px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 4px solid #ff0099;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
   border: none;
+  gap: 20px;
 }
 
 div.desc {
@@ -166,19 +263,24 @@ div.desc {
   width: 100%;          
   aspect-ratio: 1 / 1; 
   object-fit: cover;
-  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
 }
 
 .oec-profile-pics {
   width: 100%;          
   aspect-ratio: 1 / 1; 
   object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .yyxy-profile-pics {
   width: 100%;          
   aspect-ratio: 1 / 1; 
   object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 #heejincontent {
@@ -228,13 +330,93 @@ div.desc {
 #hyejucontent {
   color: #b5bec7;
 }
-iframe {
-  height: 300px;
-  width: 300px;
+
+#heejinborder {
+  border: 4px solid #ff0099;
 }
 
-.archive-img {
-  height: 200px;
-  display: flex;
-  justify-content: center;
+#hyunjinborder {
+  border: 4px solid #fed103;
 }
+
+#haseulborder {
+  border: 4px solid #00b055;
+}
+
+#yeojinborder {
+  border: 4px solid #ff7423;
+}
+
+#viviborder {
+  border: 4px solid #ffaccb;
+}
+
+#kimlipborder {
+  border: 4px solid #f3080a;
+}
+
+#jinsoulborder {
+  border: 4px solid #0c01ff;
+}
+
+#choerryborder {
+  border: 4px solid #972ac5;
+}
+
+#yvesborder{
+  border: 4px solid #6f002f;
+}
+
+#chuuborder {
+  border: 4px solid #e68263;
+}
+
+#gowonborder {
+  border: 4px solid #84e0b7;
+}
+
+#hyejuborder {
+  border: 4px solid #b5bec7;
+}
+
+
+
+.archive-img {
+  height: 400px;
+}
+
+#sixteen {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#seventeen {
+  text-align: center;
+}
+
+#eighteen {
+  text-align: center;
+}
+
+#nineteen {
+  text-align: center;
+}
+
+#twenty {
+  text-align: center;
+}
+
+#twentyone {
+  text-align: center;
+}
+
+#twentytwo {
+  text-align: center;
+}
+
+.tab-align {
+  width: 100%;
+  max-width: 1200px;
+}
+
