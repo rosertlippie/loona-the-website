@@ -393,13 +393,13 @@ div.desc {
 
 #sixteen {
   text-align: center;
-  width: 100%;
-  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #seventeen {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   text-align: center;
 }
 
