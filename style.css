@@ -264,7 +264,6 @@ div.desc {
 
 .third-profile-pics {
   width: 100%;
-  height: auto;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
@@ -272,8 +271,7 @@ div.desc {
 }
 
 .oec-profile-pics {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
   aspect-ratio: 1 / 1; 
   object-fit: cover;
   display: flex;
