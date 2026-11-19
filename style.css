@@ -394,11 +394,13 @@ div.desc {
 #sixteen {
   grid-row: 1/2;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 #seventeen {
   grid-row: 1/2;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 #eighteen {
